@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 3rem;
+}
+.container button {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  border: none;
+  border: 3px solid black;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.color-box {
+  flex: 1;
+  height: 10rem;
+}
+
+.box-container {
+  min-width: 60rem;
+  display: flex;
+  width: 50%;
+  height: 50%;
+  align-items: stretch;
+  gap: 1rem;
+}
